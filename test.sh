@@ -1,7 +1,7 @@
 #!/bin/bash
 
 test=$(ls)
-#echo $test
+
 for i in $test
 do
 	sleep 3
@@ -13,10 +13,7 @@ do
 	else
 		echo "non è un file"
 	fi
+
+	echo "CIAO"
 done
 
-#if [ $1 = "user" -a $2 = "123" ]
-#then
-	
-
-#fi;
